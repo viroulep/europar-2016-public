@@ -1,0 +1,990 @@
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 623.452089
+#Experience summarry : avg : 623.452089 :: std : 0.000000 :: min : 623.452089 :: max : 623.452089 :: median : 623.452089
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 529.479195
+#Experience summarry : avg : 529.479195 :: std : 0.000000 :: min : 529.479195 :: max : 529.479195 :: median : 529.479195
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 600.082180
+#Experience summarry : avg : 600.082180 :: std : 0.000000 :: min : 600.082180 :: max : 600.082180 :: median : 600.082180
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 478.593445
+#Experience summarry : avg : 478.593445 :: std : 0.000000 :: min : 478.593445 :: max : 478.593445 :: median : 478.593445
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 520.614561
+#Experience summarry : avg : 520.614561 :: std : 0.000000 :: min : 520.614561 :: max : 520.614561 :: median : 520.614561
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 574.148999
+#Experience summarry : avg : 574.148999 :: std : 0.000000 :: min : 574.148999 :: max : 574.148999 :: median : 574.148999
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 446.042464
+#Experience summarry : avg : 446.042464 :: std : 0.000000 :: min : 446.042464 :: max : 446.042464 :: median : 446.042464
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 614.443691
+#Experience summarry : avg : 614.443691 :: std : 0.000000 :: min : 614.443691 :: max : 614.443691 :: median : 614.443691
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 561.689404
+#Experience summarry : avg : 561.689404 :: std : 0.000000 :: min : 561.689404 :: max : 561.689404 :: median : 561.689404
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 575.553336
+#Experience summarry : avg : 575.553336 :: std : 0.000000 :: min : 575.553336 :: max : 575.553336 :: median : 575.553336
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 519.609567
+#Experience summarry : avg : 519.609567 :: std : 0.000000 :: min : 519.609567 :: max : 519.609567 :: median : 519.609567
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 549.258679
+#Experience summarry : avg : 549.258679 :: std : 0.000000 :: min : 549.258679 :: max : 549.258679 :: median : 549.258679
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 540.282554
+#Experience summarry : avg : 540.282554 :: std : 0.000000 :: min : 540.282554 :: max : 540.282554 :: median : 540.282554
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 476.618169
+#Experience summarry : avg : 476.618169 :: std : 0.000000 :: min : 476.618169 :: max : 476.618169 :: median : 476.618169
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 8192 224 1 192 511.849243
+#Experience summarry : avg : 511.849243 :: std : 0.000000 :: min : 511.849243 :: max : 511.849243 :: median : 511.849243
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1234.357238
+#Experience summarry : avg : 1234.357238 :: std : 0.000000 :: min : 1234.357238 :: max : 1234.357238 :: median : 1234.357238
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1270.055708
+#Experience summarry : avg : 1270.055708 :: std : 0.000000 :: min : 1270.055708 :: max : 1270.055708 :: median : 1270.055708
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1214.006612
+#Experience summarry : avg : 1214.006612 :: std : 0.000000 :: min : 1214.006612 :: max : 1214.006612 :: median : 1214.006612
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1273.430028
+#Experience summarry : avg : 1273.430028 :: std : 0.000000 :: min : 1273.430028 :: max : 1273.430028 :: median : 1273.430028
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1208.452982
+#Experience summarry : avg : 1208.452982 :: std : 0.000000 :: min : 1208.452982 :: max : 1208.452982 :: median : 1208.452982
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1183.401121
+#Experience summarry : avg : 1183.401121 :: std : 0.000000 :: min : 1183.401121 :: max : 1183.401121 :: median : 1183.401121
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1262.008342
+#Experience summarry : avg : 1262.008342 :: std : 0.000000 :: min : 1262.008342 :: max : 1262.008342 :: median : 1262.008342
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1259.262798
+#Experience summarry : avg : 1259.262798 :: std : 0.000000 :: min : 1259.262798 :: max : 1259.262798 :: median : 1259.262798
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1224.813778
+#Experience summarry : avg : 1224.813778 :: std : 0.000000 :: min : 1224.813778 :: max : 1224.813778 :: median : 1224.813778
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1140.209396
+#Experience summarry : avg : 1140.209396 :: std : 0.000000 :: min : 1140.209396 :: max : 1140.209396 :: median : 1140.209396
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1198.776959
+#Experience summarry : avg : 1198.776959 :: std : 0.000000 :: min : 1198.776959 :: max : 1198.776959 :: median : 1198.776959
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1219.610313
+#Experience summarry : avg : 1219.610313 :: std : 0.000000 :: min : 1219.610313 :: max : 1219.610313 :: median : 1219.610313
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1277.342945
+#Experience summarry : avg : 1277.342945 :: std : 0.000000 :: min : 1277.342945 :: max : 1277.342945 :: median : 1277.342945
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1204.508585
+#Experience summarry : avg : 1204.508585 :: std : 0.000000 :: min : 1204.508585 :: max : 1204.508585 :: median : 1204.508585
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 16384 256 1 192 1221.753763
+#Experience summarry : avg : 1221.753763 :: std : 0.000000 :: min : 1221.753763 :: max : 1221.753763 :: median : 1221.753763
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1776.091683
+#Experience summarry : avg : 1776.091683 :: std : 0.000000 :: min : 1776.091683 :: max : 1776.091683 :: median : 1776.091683
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1778.007600
+#Experience summarry : avg : 1778.007600 :: std : 0.000000 :: min : 1778.007600 :: max : 1778.007600 :: median : 1778.007600
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1791.769116
+#Experience summarry : avg : 1791.769116 :: std : 0.000000 :: min : 1791.769116 :: max : 1791.769116 :: median : 1791.769116
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1728.491604
+#Experience summarry : avg : 1728.491604 :: std : 0.000000 :: min : 1728.491604 :: max : 1728.491604 :: median : 1728.491604
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1821.841542
+#Experience summarry : avg : 1821.841542 :: std : 0.000000 :: min : 1821.841542 :: max : 1821.841542 :: median : 1821.841542
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1746.294287
+#Experience summarry : avg : 1746.294287 :: std : 0.000000 :: min : 1746.294287 :: max : 1746.294287 :: median : 1746.294287
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1818.434264
+#Experience summarry : avg : 1818.434264 :: std : 0.000000 :: min : 1818.434264 :: max : 1818.434264 :: median : 1818.434264
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1716.498779
+#Experience summarry : avg : 1716.498779 :: std : 0.000000 :: min : 1716.498779 :: max : 1716.498779 :: median : 1716.498779
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1834.991284
+#Experience summarry : avg : 1834.991284 :: std : 0.000000 :: min : 1834.991284 :: max : 1834.991284 :: median : 1834.991284
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1745.580075
+#Experience summarry : avg : 1745.580075 :: std : 0.000000 :: min : 1745.580075 :: max : 1745.580075 :: median : 1745.580075
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1792.505500
+#Experience summarry : avg : 1792.505500 :: std : 0.000000 :: min : 1792.505500 :: max : 1792.505500 :: median : 1792.505500
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1814.837422
+#Experience summarry : avg : 1814.837422 :: std : 0.000000 :: min : 1814.837422 :: max : 1814.837422 :: median : 1814.837422
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1764.351002
+#Experience summarry : avg : 1764.351002 :: std : 0.000000 :: min : 1764.351002 :: max : 1764.351002 :: median : 1764.351002
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1816.945794
+#Experience summarry : avg : 1816.945794 :: std : 0.000000 :: min : 1816.945794 :: max : 1816.945794 :: median : 1816.945794
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+  OMP_NUM_THREADS	=	192	(user-defined)
+  OMP_THREAD_LIMIT	=	8192	(libKOMP default)
+  OMP_STACKSIZE		=	8388608	(libKOMP default)
+  OMP_MAX_ACTIVE_LEVELS	=	256	(libKOMP default)
+  OMP_NESTED		=	false	(libKOMP default)
+  OMP_DYNAMIC		=	false	(libKOMP default)
+  OMP_PROC_BIND		=	true	(libKOMP default)
+  OMP_PLACES		=	{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},{35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},{53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},{71},{72},{73},{74},{75},{76},{77},{78},{79},{80},{81},{82},{83},{84},{85},{86},{87},{88},{89},{90},{91},{92},{93},{94},{95},{96},{97},{98},{99},{100},{101},{102},{103},{104},{105},{106},{107},{108},{109},{110},{111},{112},{113},{114},{115},{116},{117},{118},{119},{120},{121},{122},{123},{124},{125},{126},{127},{128},{129},{130},{131},{132},{133},{134},{135},{136},{137},{138},{139},{140},{141},{142},{143},{144},{145},{146},{147},{148},{149},{150},{151},{152},{153},{154},{155},{156},{157},{158},{159},{160},{161},{162},{163},{164},{165},{166},{167},{168},{169},{170},{171},{172},{173},{174},{175},{176},{177},{178},{179},{180},{181},{182},{183},{184},{185},{186},{187},{188},{189},{190},{191}	(user-defined)
+  OMP_SCHEDULE		=	auto	(libKOMP default)
+  OMP_CANCELLATION	=	false	(libKOMP default)
+  KOMP_DISPLAY_PERF	=	no	(libKOMP default)
+  KOMP_STEAL_PROTOCOL	=	noaggr	(libKOMP default)
+  KAAPI_WSPUSH_INIT	=	wspush
+  KAAPI_WSPUSH		=	local
+  KAAPI_WSSELECT	=	rand
+OPENMP DISPLAY ENVIRONMENT END
+#Output follows this header :
+##Progname Size Blocksize Iterations Threads Gflops(Mean) 
+dpotrf_taskdep 32768 512 1 192 1749.607082
+#Experience summarry : avg : 1749.607082 :: std : 0.000000 :: min : 1749.607082 :: max : 1749.607082 :: median : 1749.607082
+
